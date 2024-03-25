@@ -1,0 +1,128 @@
+body {
+  margin: 0%;
+  background-color: black;
+}
+
+header {
+  background-color: #545454;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.navigatorHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigatorHeader ul {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+
+.ul-tittle a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-second a {
+  margin-top: 2%;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-right {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-button {
+  width: 50%;
+  height: 40%;
+  border-radius: 60px;
+  margin-right: 10%;
+  background-color: #00d0ffcb;
+}
+
+main {
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-main-context {
+  background-color: #222224;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.section-main-context h3 {
+  margin: 2%;
+
+  color: rgba(255, 255, 255, 0.89);
+}
+.section-main-context h1 {
+  margin: 2%;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.section-games-secondary {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.jogo {
+  margin: 10%;
+  display: flex;
+  flex-direction: row;
+  background-color: #222224;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.89);
+}
+.img-jogo {
+  border-radius: 10px;
+}
+
+.img-trailer {
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.article-jogo1 {
+  margin: 5%;
+}
+
+footer{
+    margin-top: 4.88%;
+    display: flex;
+    flex-direction: row;
+    background-color: #545454;
+
+}
+
+footer nav{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.footer-images{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    width: 20%;
+
+
+}
+
